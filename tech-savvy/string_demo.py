@@ -80,3 +80,14 @@ print(new_team)
 print(team.upper())
 
 print(team.find('w'))
+
+
+def in_both(word1, word2):
+    for letter in word1:
+        if letter in word2:
+            print(letter)
+
+
+in_both('babe sone', 'colle ge')
+
+
