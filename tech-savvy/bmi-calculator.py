@@ -1,6 +1,5 @@
 import webbrowser
 
-
 def calculate_bmi(weight, height):
     bmi = 703 * weight / (height * height)
     if bmi <= 18.5:
@@ -18,5 +17,7 @@ weight = input('Enter your weight: ')
 height = input('Enter your height: ')
 weight = float(weight)
 height = float(height)
+
+
 
 print(calculate_bmi(weight, height))
