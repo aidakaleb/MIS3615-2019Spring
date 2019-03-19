@@ -1,3 +1,5 @@
+# LIST
+
 AFC_east = ['New England Patriots', 'Buffalo Bills', 'Miami Dolphins', 'New York Jets']
 a = [42, 123]
 c = []
@@ -62,7 +64,60 @@ t = list(name)
 
 str_team = 'New England Patriots'
 t = str_team.split()
-print(t)
+# print(t)
 
 team_name = "$$".join(t)
-print(team_name)
+# print(team_name)
+
+# del AFC[-2]
+# print(AFC)
+
+# del AFC[-2:]
+# print(AFC)
+
+# print(AFC_east)
+
+AFC_east[-1] = 'New York Giants'
+# print(AFC_east)
+
+
+
+# DICTIONARY
+
+
+# names = ['Bailey', 'Maddison', 'Aob']
+# scores = [60, 90, 100]
+
+
+grades = dict()
+
+# grades = {}
+grades['Bailey'] = 60
+
+# print(grades)
+grades['Maddison'] = 90
+grades['Aob'] = 100
+
+print(grades)
+
+
+print(grades['Maddison'])
+
+grades['Aida'] = [99, 98]
+print(grades)
+
+# print(grades['Penny'])
+print('Penny' in grades)
+
+
+print(len(grades))
+print()
+
+for name in grades.keys():
+    print(name)
+
+for score in grades.values():
+    print(score)
+
+for item in grades.items():
+    print(item)
