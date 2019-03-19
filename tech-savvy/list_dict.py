@@ -18,11 +18,10 @@ str_team = 'New England Patriots'
 
 
 L = [
-        ['Apple', 'Google', 'Microsoft'],
-        ['Java', 'Python', ['Ruby','On Rail'], 'PHP'],
-        ['Adam', 'Bart', 'Lisa']
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', ['Ruby', 'On Rail'], 'PHP'],
+    ['Adam', 'Bart', 'Lisa']
 ]
-
 
 # print(len(L))
 # print(L[0])
@@ -39,17 +38,31 @@ AFC_east = ['New England Patriots',
             'Miami Dolphins',
             'New York Jets']
 
-
 # print(AFC_east[2][6:])
 
-for whatever in AFC_east:
-    print(whatever)
+# for whatever in AFC_east:
+#     print(whatever)
 
 
 AFC_west = ['Chargers', 'Raiders', 'Broncos', 'Chiefs']
 
 AFC = AFC_east + AFC_west
 
-print(AFC)
+# print(AFC)
+
+# print(AFC_east[1:3])
+
+# print(AFC[1:4:2])
 
 
+name = 'Maddison'
+t = list(name)
+# print(t)
+
+
+str_team = 'New England Patriots'
+t = str_team.split()
+print(t)
+
+team_name = "$$".join(t)
+print(team_name)
